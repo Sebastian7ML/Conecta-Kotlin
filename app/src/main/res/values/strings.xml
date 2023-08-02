@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Conecta</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="programming_language">Programming Language</string>
+    <string name="let_s_learn">let\'s learn</string>
+    <string name="hola">hola</string>
+    <string name="lessonOneDescription">Kotlin is an open-source statically typed programming language designed by JetBrains.</string>
 </resources>
