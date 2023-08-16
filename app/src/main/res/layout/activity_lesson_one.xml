@@ -9,10 +9,11 @@
     >
 
 
+
     <ImageView
         android:id="@+id/blur1"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
+        android:layout_height="220dp"
         android:src="@drawable/baseline_lens_blur_24"
         app:layout_constraintBottom_toTopOf="@id/vwTitle"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,7 +25,6 @@
         android:id="@+id/vwTitle"
         class="android.widget.TextView"
         android:layout_width="match_parent"
-
         android:layout_height="70dp"
         android:text="Why Kotlin?"
         android:textAlignment="center"
@@ -44,16 +44,18 @@
         class="android.widget.TextView"
         android:layout_width="match_parent"
         android:layout_height="380dp"
-        android:layout_marginHorizontal="10dp"
+        android:layout_marginHorizontal="18dp"
         android:text="@string/lessonOneDescription"
         android:textAlignment="center"
         android:textColor="@color/teal_700"
         android:textFontWeight="500"
-        android:textSize="30sp"
+        android:textSize="26sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/vwTitle" />
+        app:layout_constraintTop_toBottomOf="@id/vwTitle"
+        />
 
     <ImageView
         android:id="@+id/blur2"
@@ -62,10 +64,11 @@
         android:src="@drawable/baseline_lens_blur_24_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/vwTitle"
+        />
 
-        app:layout_constraintTop_toBottomOf="@id/vwTitle" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
