@@ -15,13 +15,13 @@ class MainActivity : AppCompatActivity() {
         val btnStart = findViewById<Button>(R.id.btLetsLearn)
         btnStart.setOnClickListener {
 
-            navigateToTutorial()
-            Log.i("s7", "starting tutorial")
+            navigateLessonOne()
+            Log.i("s7", "starting lesson one - Why Kotlin?")
         }
 
     }
 
-    private fun navigateToTutorial() {
+    private fun navigateLessonOne() {
         val intent = Intent(this, LessonOne::class.java)
         startActivity(intent)
     }

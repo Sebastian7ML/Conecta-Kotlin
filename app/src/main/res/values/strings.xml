@@ -5,4 +5,9 @@
     <string name="let_s_learn">let\'s learn</string>
     <string name="hola">hola</string>
     <string name="lessonOneDescription">Kotlin is an open-source statically typed programming language designed by JetBrains. You can use Kotlin for Back-End, Server-Side, Android, Cross-Platform, Data Science... Concise, compatible with Java (they compile to the same byte code), handy for big projects, compact syntax...</string>
+    <string name="next">N\n e\n x\n t\n</string>
+    <string name="selectionDescription">Kotlin is powerful and you can choose some path to start development with it!</string>
+    <string name="android">ANDROID</string>
+    <string name="data_science">DATA SCIENCE</string>
+    <string name="select_your_interest">Select your interest</string>
 </resources>
