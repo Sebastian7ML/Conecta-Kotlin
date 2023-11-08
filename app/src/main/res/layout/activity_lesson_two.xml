@@ -47,6 +47,7 @@
                     android:text="@string/android"
                     android:textSize="22sp"
                     android:textColor="@color/white"
+                    android:layout_marginTop="7dp"
                     />
 
             </LinearLayout>
@@ -81,6 +82,7 @@
                     android:text="@string/data_science"
                     android:textSize="22sp"
                     android:textColor="@color/white"
+                    android:layout_marginTop="7dp"
                     />
 
             </LinearLayout>
@@ -165,6 +167,7 @@
                     android:text="SERVER-SIDE"
                     android:textSize="22sp"
                     android:textColor="@color/white"
+                    android:layout_marginTop="7dp"
                     />
 
             </LinearLayout>
@@ -197,6 +200,7 @@
                     android:text="MULTIPLATFORM"
                     android:textSize="16sp"
                     android:textColor="@color/white"
+                    android:layout_marginTop="7dp"
                     />
 
             </LinearLayout>

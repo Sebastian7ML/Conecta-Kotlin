@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <!--internet permissions and network state permission-->
+    <!-- internet permissions and network state permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
 
     <application
         android:allowBackup="true"
@@ -16,6 +15,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Conecta"
         tools:targetApi="31">
+        <activity
+            android:name=".AndroidPath.AndroidVideo"
+            android:exported="false" />
+        <activity
+            android:name=".MultiPlatformPath.MultiPlatformVideo"
+            android:exported="false" />
+        <activity
+            android:name=".DataSciencePath.DataScienceVideo"
+            android:exported="false" />
         <activity
             android:name=".lesson2.LessonTwo"
             android:exported="false" />
